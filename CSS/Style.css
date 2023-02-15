@@ -8,7 +8,7 @@ html{
 }
 body{
     min-height: 100vh;
-    background-image: url(./Images/bg-desktop.svg);
+    background-image: url(Images/bg-desktop.svg)
     background-repeat: no-repeat;
     background-color: hsl(257, 40%, 49%);
     background-size: contain;
@@ -42,10 +42,7 @@ p, h1, h2, h3, h4, h5, h6 {
   gap: 22px;
   
 }
-.pic{
-    width:709px; 
-    height:500px;
-}
+
 h1{
     max-width: 25ch;
     font-size: 2rem;
@@ -100,10 +97,6 @@ p{
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-.pic{
-    width: 320px;
-    height: auto;
 }
 button{
     margin-bottom: 100px;
