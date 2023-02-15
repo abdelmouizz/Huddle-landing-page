@@ -97,6 +97,9 @@ p{
     justify-content: center;
     text-align: center;
 }
+.pic{
+    width: 100%;
+}
 button{
     margin-bottom: 100px;
 }
