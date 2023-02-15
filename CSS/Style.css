@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    background-image: url(/Images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    background-size: contain;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+    max-height: fit-content;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+.logo{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 100px;
+}
+
+.container{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  
+}
+h1{
+    max-width: 25ch;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(300, 44%, 96%);
+}
+
+p{  
+    max-width: 50ch;
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif; 
+    color: hsl(300, 44%, 96%);
+    font-weight: 400;
+}
+
+.btn > button{
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(257, 40%, 49%);
+    font-weight: 400;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 4rem;
+    padding: 12px;
+    width: 250px;
+    box-shadow: 5px 5px 10px 2px hsl(257, 39%, 35%);
+    margin-top: 20px;
+}
+.btn > button:hover{
+    color:hsl(300, 44%, 96%);
+    background-color: hsl(300, 69%, 71%);
+}
+
+.social{
+    display: flex;
+    width: 1440px;
+    justify-content: end;
+    gap: 15px; 
+}
+.social-media{
+    color: #ffff;
+}
+.social-media:hover{
+    color:hsl(300, 69%, 71%); ;
+}
+ @media screen and (max-width: 740px) {
+    .logo{
+        justify-content: center;
+    }
+.container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+button{
+    margin-bottom: 100px;
+}
+h1{
+    max-width: 50ch;
+    font-size: 2rem;
+    text-align: center;
+}
+p{
+    max-width: none;
+    font-size: 1rem;
+    text-align: center;
+}
+.social{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+ }
+
+
