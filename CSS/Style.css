@@ -31,11 +31,11 @@ p, h1, h2, h3, h4, h5, h6 {
 .logo{
     display: flex;
     justify-content: start;
-    margin-bottom: 100px;
+    margin: 100px 0 100px 0;
 }
 
 .container{
-    display: flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
