@@ -82,10 +82,6 @@ p{
     justify-content: end;
     gap: 15px; 
 }
-
-.social:hover{
-    color:hsl(300, 69%, 71%); ;
-}
  @media screen and (max-width: 740px) {
     .logo{
         justify-content: center;
