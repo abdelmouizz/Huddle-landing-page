@@ -75,12 +75,50 @@ p{
     color:hsl(300, 44%, 96%);
     background-color: hsl(300, 69%, 71%);
 }
-
-.social{
+.container2{
     display: flex;
-    width: 1440px;
-    justify-content: end;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 300px;
+    background-color: aliceblue;
+    margin: 50px 0 50px 500px;
+    border: 2px solid hsl(300, 69%, 71%) ;
+    border-radius: 15px;
+    padding: 80px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 20px;    
+}
+.illus{
+    width: 600px; 
+    height: 250px;
+}
+.text > h2{
+    color: rgb(39, 38, 38);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;  
+}
+.text > p{
+    color: rgb(85, 85, 85);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; 
+}
+ footer{
+    background-color:hsl(257, 47%, 28%);
+    width: 100%;
+    height: 150px;
+ }
+.social{
+    background-color:hsl(257, 47%, 28%);
+    display: flex;
+    justify-content:end;
+    width: 100%;
     gap: 15px; 
+}
+.footertxt{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
  @media screen and (max-width: 740px) {
     .logo{
@@ -105,6 +143,20 @@ p{
     font-size: 1rem;
     text-align: center;
 }
+
+.container2{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+    margin: 50px auto;
+}
+.illus{
+    width: 150px;
+    height:150px;
+}
+
 .social{
         display: flex;
         justify-content: center;
